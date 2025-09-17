@@ -59,16 +59,23 @@ table caption {
     padding: 10px;
     text-transform: uppercase;
     background-color: var(--table-color);
+    color: white;
+    padding: 10px;
 }
 tr:nth-child(even) {
     background-color: var(--row-bg-color);
-}
 
+}
+tbody tr:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
 .table-container{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
 
 </style>
 </head>
@@ -102,8 +109,8 @@ tr:nth-child(even) {
             <td>November 19, 2006</td>
         </tr>
         </table>
-        <p>
-            Source: https://en.wikipedia.org/wiki/List_of_best-selling_video_games
+        <p align="center">
+            Source: <a href="https://en.wikipedia.org/wiki/List_of_best-selling_video_games">https://en.wikipedia.org/wiki/List_of_best-selling_video_games</a>
         </p>
     </body>
 </html>
